@@ -1,9 +1,11 @@
-import Hero from "@/layout/Hero";
+import Carousel from "@/layout/Carousel";
+import NewProduct from "@/layout/NewProduct";
 
 function Home() {
   return (
-    <div className="px-0">
-      <Hero />
+    <div>
+      <Carousel />
+      <NewProduct />
       <div className="w-full h-6 bg-slate-500 ">سلام</div>
     </div>
   );

@@ -29,7 +29,7 @@ function Header() {
         <button className="bg-inherit p-2 text-white">
           <FaSearch />
         </button>
-        <Button text="ثبت نام" />
+        <Button text="ثبت نام" link="/signin" />
       </div>
     </div>
   );

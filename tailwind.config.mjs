@@ -12,6 +12,16 @@ export default {
         mainBlue: "#A99DFF",
         mainOrange: "#FF754C",
       },
+      boxShadow: {
+        "3xl":
+          "0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(255, 255, 255, 0.19)",
+      },
+      dropShadow: {
+        glow: [
+          "0 0px 20px rgba(255,255, 255, 0.35)",
+          "0 0px 65px rgba(255, 255,255, 0.2)",
+        ],
+      },
     },
   },
   plugins: [],

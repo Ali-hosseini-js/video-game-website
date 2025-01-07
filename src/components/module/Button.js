@@ -1,7 +1,12 @@
+import Link from "next/link";
 import React from "react";
 
-function Button({ text }) {
-  return <div className="py-1 px-8 bg-[#6C5DD3] rounded-lg">{text}</div>;
+function Button({ text, link }) {
+  return (
+    <Link href={`${link}`} className="py-2 px-8 bg-[#6C5DD3] rounded-lg">
+      {text}
+    </Link>
+  );
 }
 
 export default Button;
