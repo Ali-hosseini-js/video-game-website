@@ -8,8 +8,8 @@ function Blog() {
       <h1 className="text-[28px] font-semibold underline underline-offset-[16px] text-center">
         جدیدترین مقالات
       </h1>
-      <div className="flex py-[50px] h-[900px]">
-        <div className="row-start-1 row-end-3 w-1/2">
+      <div className="flex gap-5 py-[50px] h-[900px]">
+        <div className=" w-1/2">
           <BlogCarousel />
         </div>
         <div className="flex flex-col justify-between w-1/2 ">
